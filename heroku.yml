@@ -1,0 +1,8 @@
+build:
+  config:
+    NODE_ENV: production
+  scripts:
+    heroku-postbuild: "cd server && npm ci && npm run build"
+run:
+  dir: server
+  command: npm run start:prod
