@@ -14,7 +14,8 @@ client/.next/
 /out/
 
 # production
-/build
+server/build
+client/build
 
 # misc
 .DS_Store
@@ -27,6 +28,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+server/.env*
+server/.env
+client/.env*
+client/.env
 
 # vercel
 .vercel
@@ -36,7 +41,7 @@ yarn-error.log*
 client/next-env.d.ts
 
 # compiled output
-/dist
+server/dist
 
 # Logs
 logs
